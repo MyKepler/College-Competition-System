@@ -1,0 +1,74 @@
+/*教师端和学生端的个人信息修改页面样式表*/
+.info-wrapper {
+  width: 85%;
+  margin: 5rem auto;
+  padding: 4rem;
+  border-radius: 1rem;
+  background-color: #e4e4e4;
+  display: flex;
+}
+
+.avatar-wrapper {
+  display: inline-block;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  display: block;
+  border-radius: 50%;
+  padding: .3rem;
+  border: 2px dashed #ccc;
+}
+
+.edit-avatar {
+  display: block;
+  text-align: center;
+  padding: .5rem;
+  font-size: .8rem;
+  color: #4586FF;
+  cursor: pointer;
+}
+
+
+
+
+.teacher-info {
+  width: 80%;
+  margin-left: 4rem;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  padding: .2rem 1rem 1rem 1rem;
+  border-bottom: 2px dashed #ccc;
+}
+
+.title span.title-name {
+  font-size: 1.4rem;
+}
+
+.title div.operate-area {
+  display: flex;
+  align-items: flex-end;
+}
+.title span.operate {
+  margin-right: 1rem;
+  font-size: 1rem;
+  color: #4586FF;
+  cursor: pointer;
+}
+
+
+
+.fill-text {
+  color: transparent;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 0 0 3rem;
+}
+

@@ -1,0 +1,54 @@
+/*覆盖ElementUI样式*/
+.admin-check-info-wrapper .el-input.is-disabled .el-input__inner {
+  color: #666;
+}
+
+.admin-user-category-wrapper .el-checkbox.is-bordered+.el-checkbox.is-bordered {
+  margin: 1rem;
+}
+
+
+.manage-head .el-menu-item {
+  text-align: center;
+  min-width: auto;
+  color: #2A3F54;
+  background-color: rgba(255,255,255,.5);
+}
+
+.manage-head .el-submenu .el-menu-item:hover, 
+.manage-head .el-submenu__title:hover {
+  background-color: rgba(46, 112, 133, .5);
+}
+
+.manage-head .el-submenu__title, 
+.manage-head .el-menu-item {
+  color: #ECF0F1;
+  font-weight: bold;
+}
+
+.manage-head .el-submenu .el-menu-item:hover, 
+.manage-head .el-submenu__title:hover {
+  background-color: #2E7085;
+}
+.manage-head .el-menu {
+  background-color: transparent;
+}
+.manage-head .more .el-menu{
+  border: none;
+}
+
+
+.header-menu .el-submenu__title, 
+.header-menu .el-menu-item {
+  color: #333;
+  font-weight: bold;
+  border: 0px solid #ccc;
+}
+
+.header-menu .el-menu--horizontal {
+  border: none;
+}
+
+.header-menu .el-submenu.is-active .el-submenu__title {
+  border: none;
+}
